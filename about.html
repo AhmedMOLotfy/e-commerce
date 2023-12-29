@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- CSS files -->
+        <link href="css/normalize.css" rel="stylesheet" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/all.min.css" rel="stylesheet" />
+        <link href="css/design.css" rel="stylesheet" />
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--  -->
+        <!-- Navbar -->
+        <!-- Navbar -->
+        <header>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand c-white" href="#">E-Commerce</a>
+                        <button
+                            class="navbar-toggler c-white"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon c-white"></span>
+                        </button>
+                        <div class="collapse navbar-collapse"
+                            id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item c-white">
+                                    <a
+                                        class="nav-link active c-white"
+                                        aria-current="page"
+                                        href="/index.html"
+                                        id="Home"
+                                        >Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link c-white"
+                                        href="/about.html"
+                                        id="about"
+                                        >About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link c-white" id="contact" href="/contactUs.html"
+                                        id="contact"
+                                        >Contact
+                                        Us</a>
+                                </li>
+                            </ul>
+                            <div class="cart-div" id="cart-div" onclick="openCart()">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                (<span id="cart-no">0</span>)
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!--  -->
+        <div class="about-section paddingTB60 gray-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 col-sm-6">
+                        <div class="about-title clearfix">
+                            <h1>E-<span>Commerce</span></h1>
+                            <h3>Fueled by a passion for niche</h3>
+                            <p class="about-paddingB">The About Us page is often overlooked on e-commerce websites, but it can be a powerful tool for building trust and connection with your customers. In the age of mobile shopping, this is even more important for e-commerce apps, where users are just a tap away from uninstalling if they don't feel a sense of rapport with the brand. </p>
+                            <p>An online marketplace that makes it easy to find and purchase</p>
+                            <div class="about-icons">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/"><i
+                                                id="social-fb"
+                                                class="fa fa-facebook-square fa-3x social"></i></a>
+                                    </li>
+                                    <li><a href="https://twitter.com/"><i
+                                                id="social-tw"
+                                                class="fa fa-twitter-square fa-3x social"></i></a>
+                                    </li>
+                                    <li> <a href="https://plus.google.com/"><i
+                                                id="social-gp"
+                                                class="fa fa-google-plus-square fa-3x social"></i></a>
+                                    </li>
+                                    <li> <a href="mailto:bootsnipp@gmail.com"><i
+                                                id="social-em"
+                                                class="fa fa-envelope-square fa-3x social"></i></a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-6">
+                        <div class="about-img">
+                            <img
+                                src="images/how-ecommerce-works.png"
+                                alt>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer" style="background-color: #007bff; color: white">
+            <div class="container">
+                <footer class="pt-3">
+                    <div class="row">
+                        <div class="col-6 col-md-5 mb-3">
+                            <h5>E-Commerce</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2">
+                                    <a href="/index.html"
+                                        class="nav-link p-0">Home</a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a href="/about.html"
+                                        class="nav-link p-0 ">About</a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a href="#"
+                                        class="nav-link p-0 ">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        <div class="col-md-5 offset-md-1 mb-3">
+                            <form>
+                                <h5>Subscribe to our newsletter</h5>
+                                <p>Monthly digest of what's new and exciting
+                                    from us.</p>
+                                <div
+                                    class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                    <label for="newsletter1"
+                                        class="visually-hidden">Email
+                                        address</label>
+                                    <input
+                                        id="newsletter1"
+                                        type="text"
+                                        class="form-control"
+                                        placeholder="Email address"
+                                        spellcheck="false"
+                                        data-ms-editor="true" />
+                                    <button class="btn btn-primary"
+                                        type="button" style="background-color: #0000ff59;">
+                                        Subscribe
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div
+                        class="d-flex flex-column flex-sm-row justify-content-between py-2 border-top">
+                        <p>© 2022 Company, Inc. All rights reserved.</p>
+                        <ul class="list-unstyled d-flex">
+                            <li class="ms-3">
+                                <a class="link-dark" href="#"><svg class="bi"
+                                        width="24" height="24">
+                                        <use
+                                            xlink:href="#twitter"></use></svg></a>
+                            </li>
+                            <li class="ms-3">
+                                <a class="link-dark" href="#"><svg class="bi"
+                                        width="24" height="24">
+                                        <use
+                                            xlink:href="#instagram"></use></svg></a>
+                            </li>
+                            <li class="ms-3">
+                                <a class="link-dark" href="#"><svg class="bi"
+                                        width="24" height="24">
+                                        <use
+                                            xlink:href="#facebook"></use></svg></a>
+                            </li>
+                        </ul>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

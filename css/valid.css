@@ -1,0 +1,70 @@
+.program {
+    width: 30%;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.name-input {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.name-input input {
+    width: 250px;
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: #eee;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    background-color: red;
+    color: #eee;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.gender-input {
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.sports-input {
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+select {
+    width: 250px;
+}
+
+.country-input {
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.btns {
+    margin-top: 20px;
+}
+
+span.msg {
+    display: block;
+    text-align: start;
+    font-size: 14px;
+    color: red;
+    margin-top: 3px;
+    margin-left: 10px
+}
+
+textarea {
+    width: 250px;
+}

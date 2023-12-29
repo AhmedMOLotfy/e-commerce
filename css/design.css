@@ -1,0 +1,232 @@
+header {
+    background-color: #007bff;
+}
+
+/* #0026ff */
+div.collapse.navbar-collapse ul li a:hover,
+div.collapse.navbar-collapse ul li a.active
+{
+    background-color: #0026ff;
+    font-size: 17px;
+    border-radius: 2px;
+}
+
+div.collapse.navbar-collapse ul li  {
+    margin-right: 4px;
+}
+
+nav {
+    padding: 10px 10px 10px;
+}
+
+i.fa-solid {
+    font-size: 21px;
+}
+
+#cart-no {
+    font-size: 21px;
+}
+
+nav {
+    background-color: #007bff;
+    color: white;
+}
+
+.c-white {
+    color: white !important;
+}
+
+img {
+    width: 100%;
+    height: 280px;
+}
+
+.slider-section {
+    margin-bottom: -10px;
+}
+
+.slider-control {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.slider-control i {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    margin-right: 40px;
+    color: white;
+    position: absolute;
+    top: 35%;
+}
+
+.col-md-4 {
+    padding: 0 5px;
+}
+
+.slider-control i.left-i {
+    left: 0;
+}
+
+.slider-control i.right-i {
+    right: 0;
+    margin: 0;
+}
+
+.products {
+    background-color: #f5f5f5;
+    padding-top: 20px;
+}
+
+.products ul {
+    background-color: #f5f5f5;
+    /* Lighter background for contrast */
+    overflow: hidden;
+    /* Prevent content overflow */
+    border-bottom: 1px solid #ddd;
+    /* Added border for separation */
+}
+
+.nav-pills .nav-link {
+    border-radius: 0.25rem;
+    /* Rounded tabs */
+    padding: 10px 15px;
+    /* Increased padding for better readability */
+    margin-bottom: 5px;
+    /* Added spacing between tabs */
+}
+
+.nav-item a {
+    color: #007bff;
+    /* Inherit brand color */
+    border: 1px solid transparent;
+    /* Transparent border for hover effect */
+    transition: all 0.3s ease;
+    /* Smooth transitions */
+}
+
+.nav-item a:hover {
+    border-color: #007bff;
+    /* Highlight active tab */
+    background-color: #007bff;
+    color: white;
+    /* Light hover effect */
+}
+
+.nav-item.active a {
+    background-color: #fff;
+    /* Distinct background for active tab */
+    color: #007bff;
+    /* Maintain brand color */
+    border-color: #007bff;
+    /* Reinforce active state */
+    font-weight: bold;
+    /* Add visual emphasis */
+}
+
+.products-container {
+    margin-top: 20px;
+    /* Added spacing below tabs */
+}
+
+.card {
+    margin-bottom: 10px;
+    /* Added spacing between cards */
+}
+
+.addCart {
+    padding: 3px 6px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+ul.nav.nav-pills.justify-content-start {
+    gap: 10px;
+}
+
+ul.nav.nav-pills.justify-content-start li a {
+    cursor: pointer;
+}
+
+.cart-div {
+    cursor: pointer;
+}
+
+.cart-page {
+    background-color: #f1f5f9;
+    height: 100vh;
+}
+
+.cart-products {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.ul-cart {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cart-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.ul-cart button {
+    height: fit-content;
+}
+
+.ul-cart li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ul-cart li:not(:last-child) {
+    border-bottom: 1px solid #007bff;
+
+}
+
+.desc-cart {
+    font-size: 15px;
+    color: #212529cf;
+}
+
+
+.added {
+    background-color: green;
+}
+
+footer .row .col-6 ul li a {
+    color: white;
+}
+
+.design-cart {
+    background-color: #0026ff;
+    padding: 3px 6px
+}
+
+.paddingTB60 {padding:60px 0px 60px 0px;}
+.gray-bg {background: #F1F1F1 !important;}
+.about-title h1 {color: #535353; font-size:45px;font-weight:600;}
+.about-title span {color: #AF0808; font-size:45px;font-weight:700;}
+.about-title h3 {color: #535353; font-size:23px;margin-bottom:24px;}
+.about-title p {color: #7a7a7a;line-height: 1.8;margin: 0 0 15px;}
+.about-paddingB {padding-bottom: 12px;}
+.about-img {padding-left: 57px;}
+
+/* Social Icons */
+.about-icons {margin:48px 0px 48px 0px ;}
+.about-icons i{margin-right: 10px;padding: 0px; font-size:35px;color:#323232;box-shadow: 0 0 3px rgba(0, 0, 0, .2);}
+.about-icons li {margin:0px;padding:0;display:inline-block;}
+#social-fb {color: #3B5998;transition:all .001s;}
+#social-tw {color: #4099FF;transition:all .001s;}
+#social-gp {color: #d34836;transition:all .001s;}
+#social-em {color: #f39c12;transition:all .001s;}
