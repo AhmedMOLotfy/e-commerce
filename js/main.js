@@ -69,6 +69,11 @@ productsData = [
     },
 ];
 
+if(!lengthCart){
+    localStorage.setItem('cartProducts',JSON.stringify([]))
+}
+
+
 
 var href = window.location.href.slice(22);
 if(href == 'index.html'){
@@ -158,7 +163,7 @@ function appendToProductList(value = 'furniture'){
                         </select>
                         ${!productsInCart(productsData[i].imgSrc) ? 
                             '<span class="addCart" onclick="addToCart(this)">Add To Cart </span>' : 
-                            '<span class="addCart added" onclick="addToCart(this)">Check Cart </span>'}
+                            '<span class="addCart added" style="cursor: auto;" onclick="addToCart(this)">Check Cart </span>'}
                     
                     </div>
                 </div>
